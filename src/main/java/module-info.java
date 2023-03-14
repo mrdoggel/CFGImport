@@ -4,6 +4,6 @@ module cfgimport.cfgimport {
 
     requires org.controlsfx.controls;
 
-    opens cfgimport.cfgimport to javafx.fxml;
-    exports cfgimport.cfgimport;
+    opens cfgimport.pack to javafx.fxml;
+    exports cfgimport.pack;
 }
